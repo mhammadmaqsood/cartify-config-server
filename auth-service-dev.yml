@@ -6,8 +6,8 @@ spring:
     allow-bean-definition-overriding: true
   datasource:
     url: jdbc:mysql://localhost:3306/cartify_auth
-    username: root
-    password: root
+    username: cartify_user
+    password: cartify_pass
     driver-class-name: com.mysql.cj.jdbc.Driver
   redis:
     host: localhost
