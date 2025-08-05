@@ -2,6 +2,8 @@ server:
   port:
     8081
 spring:
+  main:
+    allow-bean-definition-overriding: true
   datasource:
     url: jdbc:mysql://localhost:3306/cartify_auth
     username: root
